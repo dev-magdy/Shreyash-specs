@@ -139,9 +139,7 @@ paths:
         in: query
         name: start_date
         schema:
-          items:
-            type: string
-          type: array
+          type: string
       - description: A single date in 'YYYY-MM-DD' format. This is used to select
           games that occur on or before this date.
         in: query
