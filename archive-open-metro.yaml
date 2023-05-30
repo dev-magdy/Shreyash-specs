@@ -27,6 +27,7 @@ paths:
       - Historical Weather API
       summary: 60 years of accurate weather, anywhere with up to 5 km resolution
       description: '60 years of accurate historical weather, anywhere with up to 5 km resolution'
+      operationId: getHistoricalWeatherData
       parameters:
       - name: start_date
         in: query
